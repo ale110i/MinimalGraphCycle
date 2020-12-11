@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E006E552582F15700E954E5 /* ListGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E006E512582F15600E954E5 /* ListGraph.cpp */; };
+		5E006E562582F15700E954E5 /* IGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E006E522582F15700E954E5 /* IGraph.cpp */; };
 		5E4399E3222066030006F2A5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E4399E2222066030006F2A5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E006E512582F15600E954E5 /* ListGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListGraph.cpp; sourceTree = "<group>"; };
+		5E006E522582F15700E954E5 /* IGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IGraph.cpp; sourceTree = "<group>"; };
+		5E006E532582F15700E954E5 /* IGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IGraph.hpp; sourceTree = "<group>"; };
+		5E006E542582F15700E954E5 /* ListGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListGraph.hpp; sourceTree = "<group>"; };
 		5E4399DF222066030006F2A5 /* MinimalGraphCycle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MinimalGraphCycle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4399E2222066030006F2A5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,10 @@
 		5E4399E1222066030006F2A5 /* MinimalGraphCycle */ = {
 			isa = PBXGroup;
 			children = (
+				5E006E522582F15700E954E5 /* IGraph.cpp */,
+				5E006E532582F15700E954E5 /* IGraph.hpp */,
+				5E006E512582F15600E954E5 /* ListGraph.cpp */,
+				5E006E542582F15700E954E5 /* ListGraph.hpp */,
 				5E4399E2222066030006F2A5 /* main.cpp */,
 			);
 			path = MinimalGraphCycle;
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E006E552582F15700E954E5 /* ListGraph.cpp in Sources */,
 				5E4399E3222066030006F2A5 /* main.cpp in Sources */,
+				5E006E562582F15700E954E5 /* IGraph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
